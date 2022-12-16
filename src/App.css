@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+body ::-webkit-scrollbar{
+  width: 0.7em;
+  height: 0.7em;
+}
+body ::-webkit-scrollbar-track{
+  background-color: hsl(0,0%,90%);
+}
+body ::-webkit-scrollbar-thumb{
+  background-color: #3080A7;
+  border: 0.1em solid  hsl(0,0%,90%);
+  cursor: pointer;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
