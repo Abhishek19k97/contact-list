@@ -23,6 +23,15 @@ export const AddContactWrapper = styled.section`
       cursor: pointer;
       margin: 3px 7px;
     }
+    .form-container{
+      border-left: 0.15em solid grey
+    }
+
+    @media only screen and (max-width: 768px) {
+      .form-container{
+        border-left: 0px
+      }
+    }
 
 `;
 

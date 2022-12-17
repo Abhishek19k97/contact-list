@@ -97,7 +97,7 @@ const EditConatct = () => {
     <EditConatctWrapper>
       {contextHolder}
       <Row justify='center' align='middle'>
-        <Col span={10} >
+        <Col xs={24} sm={24} md={10} lg={10} xl={10} >
           <div>
             <Avatar shape="square" size={256} icon={
               imageURL
@@ -116,7 +116,7 @@ const EditConatct = () => {
             </Spin>
           </div>
         </Col>
-        <Col span={14} style={{ borderLeft: "0.15em solid grey" }}>
+        <Col xs={24} sm={24} md={14} lg={14} xl={14} className="form-container">
           <Form
             name="contactListForm"
             form={form}
